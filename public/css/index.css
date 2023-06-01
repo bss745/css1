@@ -1,0 +1,96 @@
+:root {
+    background: white;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    background: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+.box div {
+   background: green; 
+}
+.box p {
+    background: red; 
+ }
+
+ .brown {
+    color: white;
+    background: brown;
+ }
+
+ ul > li {
+    background: red;
+ }
+
+ button.header-button + span {
+    background: red;
+ }
+
+ p.susid ~ p {
+    background: blue;
+ }
+
+ section div.card-body .salo, 
+ #bread {
+    background: yellow;
+ }
+ 
+ .first-task li:first-child {
+    color: white;
+ }
+
+ .second-task ul:first-child :first-child {
+    color: yellow;
+ }
+
+ .third-task ul:last-child :first-child {
+    background: yellow;
+ }
+
+ .four-task ul :last-child {
+    background: yellow;
+ }
+
+ .five-task ul:last-child :last-child {
+    color: white;
+ }
+
+ .only-child-task :only-child {
+    color: red;
+ }
+
+ .seven-task span:first-of-type {
+    background: red;
+ }
+
+ .eight-task span:first-of-type {
+    background: red;
+ }
+
+ .text-wrapper p:only-of-type {
+    background: yellow;
+ }
+
+ .lesson-three-task-one a[href] {
+    color: white;
+ }
+
+ .lesson-three-task-two li[value] {
+    color: yellow;
+ }
+
+ .lesson-three-task-three li[value="3"] {
+    background: red;
+ }
