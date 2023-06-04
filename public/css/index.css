@@ -94,3 +94,46 @@ h1 {
  .lesson-three-task-three li[value="3"] {
     background: red;
  }
+
+ .lesson-three-task-four [class~="primary"] {
+   background: blue;
+}
+
+.lesson-three-task-five [class|="secondary"] {
+   background: red;
+}
+
+.lesson-three-task-six [class^="b"] {
+   background: white;
+   color: green;
+}
+
+.lesson-three-task-seven [class*="on"] {
+   background: white;
+   color: green;
+}
+
+.lesson-three-task-eight [class$="s"] {
+   background: white;
+   color: blue;
+}
+
+.lesson-three-task-nine h2::first-letter {
+   color: red;
+}
+
+.lesson-three-task-ten::first-line {
+   background: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder {
+   background: red;
+}
+
+.lesson-three-task-twelve li::before {
+   content: ">";
+}
+
+.lesson-three-task-thirteen li::after {
+   content: ">";
+}
